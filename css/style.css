@@ -1,0 +1,109 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing:content-box; 
+}
+body {
+    position:absolute;
+    background-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #181818;
+    line-height: 1.60; /* Improves readability */
+    text-align: center;
+}
+header {
+    background: url("../img/banner.jpg") no-repeat center center;
+    background-size: cover; 
+}
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0; 
+    color:#f78d14;
+    left: 10px;
+}
+#titulo, header h1 {
+    display: inline-block;
+    margin-bottom: 10pt;
+    height: 150pt;
+    vertical-align: middle; 
+}
+img {
+    display:block; 
+    margin: 0 auto; 
+    width: 225px; 
+    height: auto; 
+}
+nav {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex; 
+    gap: 35px; 
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: #ebebeb;
+    padding-bottom: 0px;
+    text-decoration: none;
+    background-color: #f78d14; 
+    color:black; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 100px; /* Bordes redondeados */
+    font-size: 1em; 
+    transition: background-color 1s, transform 2s; /* Transiciones suaves */
+}
+nav a:hover {
+    border-bottom: 3.1px solid white;
+}
+article, section {
+    padding: 9px;
+}
+section {
+    margin: 0 auto; 
+    float: left;
+    width: 75%;
+}
+section p {
+    text-align: justify; 
+}
+aside {
+    padding: 10px; 
+    font-style: italic; /* Estilo de la fuente */
+    float: right; /* Mantener a la derecha */
+    width: auto; 
+    background-color: #f0f0f0; 
+    border: 3px solid #0665b3; 
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 10px 20px 80px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    margin-top: 1px; /* Espacio superior */
+}
+aside h1 {
+    margin-top: 0; /* Sin margen en la parte superior */
+    color: #0665b3; 
+}
+aside p {
+    line-height: 30px; /* Mejora la legibilidad */
+    color: #333; 
+}
+footer {
+    clear: both; 
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid #000;
+    background-color: #0665b3;
+    color: white;
+    text-align: center;
+    padding: 10pt 0; 
+}
